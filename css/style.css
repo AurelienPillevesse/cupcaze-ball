@@ -1,0 +1,58 @@
+@font-face {
+	font-family: CaviarDreams;
+	src: url('../font/CaviarDreams.ttf');
+}
+
+#beginning p:first-child:before {
+	content: ' ';
+	border-bottom: 1px solid #595959;
+	width: 4.5em;
+	display: inline-block;
+	margin-right: 0.5em;
+	position: relative;
+	top: -0.35em;
+}
+#beginning p:first-child:after {
+	content: ' ';
+	border-bottom: 1px solid #595959;
+	width: 4.5em;
+	display: inline-block;
+	margin-left: 0.5em;
+	position: relative;
+	top: -0.35em;
+}
+#beginning {
+	text-transform: uppercase;
+	color: white;
+	font-size: 1.25em;
+}
+
+.partner-click {
+	border: 1px solid white;
+}
+.partner-click:hover {
+	background-color: grey;
+}
+
+table {
+	display: none;
+}
+
+.caviar {
+	font-family: CaviarDreams;
+}
+
+.more {
+	position: absolute; 
+	text-align: center; 
+	left: 0; 
+	top: 5%; 
+	width: 100%;
+}
+
+#canvas {
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	width: 100%;
+}
